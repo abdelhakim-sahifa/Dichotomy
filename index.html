@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dichotomy Method with Inputs</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Dichotomy Method Example with Dynamic Function Input</h1>
+
+    
+
+    <div class="inputs">
+    <label for="inputA">Enter la valeur de a :</label>
+    <input type="number" id="inputA" step="0.01" value="1"><br><br>
+
+    <label for="inputB">Enter la valeur de a :</label>
+    <input type="number" id="inputB" step="0.01" value="2"><br><br>
+
+    <label for="inputL">Enter l'amplitude (l):</label>
+    <input type="number" id="inputL" step="0.01" value="0.25"><br><br>
+
+    
+    <label for="sleepDuration">Enter sleep duration (ms):</label>
+    <input type="number" id="sleepDuration" value="1000"><br><br>
+
+
+
+    <label for="functionInput">Enter la function  (e.g., x*x*x + 2*x - 8):</label>
+    <input type="text" id="functionInput" value="x*x*x + 2*x - 8"><br><br>
+
+    <button onclick="startDichotomie()">Start Dichotomy</button>
+    
+    </div>
+  
+ 
+    <div id="output"></div>
+    <script src="script.js"></script>
+    <p>by abdelhakim sahifa</p>
+</body>
+</html>
